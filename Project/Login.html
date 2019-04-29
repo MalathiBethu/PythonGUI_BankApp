@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Login</title>
+	</head>
+	<style>
+	.container{
+		position: relative;
+	}
+	.topright{
+		 position :absolute;
+		 top: -100px;
+		 right: 16px;
+		 font-size: 18px;
+	}
+	.button{
+	line-height: 12px;
+	width: 18px;
+	font-size: 8pt;
+	font-family: tahoma;
+	margin-top: 1px;
+	margin-right: 2px;
+	position: absolute;
+	top: 0;
+	right:0;
+	}
+	.right{
+		width :50%;
+		float :right;
+	}
+	.wrapper{
+	width: 100%;
+	margin: auto;
+	}
+	
+	
+	</style>
+		 
+	<body>
+		<form action="LoginPage.py" method="post">
+			Account Number: <input type="number" name="account number" maxlength="6" /><br/><br/>
+			Password: <input type="password" name="password" /><br/><br/>
+            
+			<a href="ForgotPassword.py">Forgot Password</a>
+			<a href="Register.html">Register</a>
+			<input type="submit" value="Login" />
+		</form>
+	</body>
+	
+	
+	
+	
+	
+</html>
